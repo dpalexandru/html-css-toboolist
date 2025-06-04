@@ -19,6 +19,7 @@ li {
   list-style-type: none;
 }
 
+
 /* Utility*/
 
 .inline-block {
@@ -68,9 +69,25 @@ li {
 .container {
   background-color: white;
   max-width: 800px;
-  margin: 40px auto;
-  border-top-left-radius: 2px;
+  margin: 0 auto;
+
 }
+
+.br-su {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 40px;
+}
+
+.br-giu {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 40px;
+
+}
+
+
+
 
 /* header */
 
@@ -96,7 +113,6 @@ h1 {
 
 #addtask {
   height: 60px;
-
 }
 
 main section .button {
@@ -110,6 +126,7 @@ main section .button {
 
 h2 {
   font-size: 1.5rem;
+  padding-top: 20px;
 }
 
 li {
@@ -130,4 +147,20 @@ li {
   padding: 2px;
   font-size: 0.8rem;
 
+}
+
+.stato {
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 3px;
+  text-align: center;
+}
+
+.ok {
+  color: green;
+}
+
+.non {
+  color: red
 }
