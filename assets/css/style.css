@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 /* Generali*/
@@ -12,11 +11,13 @@
 body {
   background-color: #F7F8FA;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+  align-items: center;
 }
 
-
-
+ul,
+li {
+  list-style-type: none;
+}
 
 /* Utility*/
 
@@ -38,8 +39,30 @@ body {
 .blu {
   color: white;
   background-color: #40ADE9;
+}
 
+.blue {
+  background-color: #40ADE9;
+}
 
+.viola {
+  background-color: #9472DF;
+}
+
+.verde {
+  background-color: #64C0A8;
+}
+
+.arancione {
+  background-color: #E29B34;
+}
+
+.violascuro {
+  background-color: #D7639F;
+}
+
+.verdescuro {
+  background-color: #889C23;
 }
 
 .container {
@@ -80,4 +103,31 @@ main section .button {
   padding: 5px;
   border-radius: 3px;
   margin-top: 15px;
+}
+
+
+/* sezione task*/
+
+h2 {
+  font-size: 1.5rem;
+}
+
+li {
+  margin-top: 15px;
+}
+
+.task {
+  margin-top: 20px;
+}
+
+.row {
+  margin-left: 40px;
+}
+
+.tag {
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 0.8rem;
+
 }
