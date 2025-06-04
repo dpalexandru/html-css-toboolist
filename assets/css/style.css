@@ -112,13 +112,12 @@ h1 {
 /* sezione add */
 
 #addtask {
-  height: 60px;
+  padding: 10px 0;
 }
 
 main section .button {
   padding: 5px;
   border-radius: 3px;
-  margin-top: 15px;
 }
 
 
@@ -134,7 +133,8 @@ li {
 }
 
 .task {
-  margin-top: 20px;
+  margin-top: 3px;
+
 }
 
 .row {
