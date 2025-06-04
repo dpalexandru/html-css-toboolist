@@ -17,16 +17,36 @@ body {
 
 
 
+
 /* Utility*/
 
 .inline-block {
   display: inline-block;
 }
 
+.m-left {
+  margin-left: 40px;
+}
+
+.gray {
+  background-color: white;
+  color: gray;
+  border: 1px gray solid;
+
+}
+
+.blu {
+  color: white;
+  background-color: #40ADE9;
+
+
+}
+
 .container {
   background-color: white;
   max-width: 800px;
-
+  margin: 40px auto;
+  border-top-left-radius: 2px;
 }
 
 /* header */
@@ -45,4 +65,19 @@ img {
 
 h1 {
   line-height: 50px;
+
+}
+
+
+/* sezione add */
+
+#addtask {
+  height: 60px;
+
+}
+
+main section .button {
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 15px;
 }
